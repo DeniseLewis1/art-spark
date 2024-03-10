@@ -19,7 +19,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    margin: 50px auto;
+    margin: 30px auto;
     text-align:center;
     background-color: var(--darkwhite);
     width: 80%;
@@ -29,6 +29,7 @@ body {
 h1 {
     font-family: "Pacifico", cursive;
     font-size: 4em;
+    margin: 20px 0;
 }
 
 h2 {
@@ -39,6 +40,7 @@ h2 {
 
 h3 {
     text-transform: capitalize;
+    margin: 10px;
 }
 
 header {
@@ -92,7 +94,7 @@ button:hover {
 
 .output {
     width: 60%;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 20px;
     background-color: var(--teal);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
