@@ -1,0 +1,102 @@
+:root {
+    --black: #040316;
+    --darkwhite: #FBFBFE;
+    --white: #FFFFFF;
+    --blue: #279AF1;
+    --teal: #41E1A4;
+    --pink: #FE25A0;
+    --yellow: #FFDD61;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--blue);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 50px auto;
+    text-align:center;
+    background-color: var(--darkwhite);
+    width: 80%;
+    border: 2px solid var(--black);
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    padding: 0 15px;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+header {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 0;
+    background-color: var(--yellow);
+}
+
+.selectors {
+    display:flex;
+    flex-direction:row;
+    padding: 20px;
+}
+  
+form {
+    margin: auto;
+}
+
+select {
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background-image: url(https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2019/09/Untitled-1%4005x.png);   /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 250px;
+    margin-right: 20px;
+    background-size: 11%;
+    background-color: var(--white);
+    border: 1px solid var(--pink);
+}
+  
+button {
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+}
+  
+button:hover {
+    background-color: var(--black);
+}
+
+.output {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--teal);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px solid var(--pink);
+}
+
+.project {}
