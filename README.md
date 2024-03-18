@@ -1,4 +1,4 @@
-# Art Spark
+# 🎨 Art Spark
 
 This is an app to help you get inspiration for your next art project.
 
